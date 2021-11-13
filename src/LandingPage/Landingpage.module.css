@@ -8,31 +8,68 @@
     height: 100vh;
     display: flex;
     flex-direction: row;
-    width: fit-content;
+    justify-content: center;
+    padding-top: 150px;
+    grid-gap: 40px;
+    background-color: #0e131f;
 }
 
-.IntroductionContainer {
-    margin: auto;
+.IntroductionTextContainer {
+    display: flex;
+    flex-direction: column;
 }
 
 .IntroductionTitle {
-    text-align: left;
-    font-size: 3em;
+    font-size: 3.5em;
     width: 500px;
     font-weight: 600;
+    text-align: left;
 }
 
 .LandingBg {
-    width: 40%;
+    width: 30%;
     height: 480px;
 }
 
 .Investors {
     height: 25vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #04471c;
 }
 
 .Settlers {
     height: 50vh;
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    background-color: #0B2432;
+}
+
+.SettlersContainer {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 100px;
+    justify-content: center;
+}
+
+.SettlersTextContainer {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    font-size: 1.5em;
+    text-align: left;
+    grid-gap: 20px;
+}
+
+.SettlerBG {
+    width: 30%;
+    height: 480px;
+}
+
+.SettlerTitle {
+    font-size: 2em;
+    font-weight: 600;
 }
 
 .Banner {
@@ -41,4 +78,60 @@
 
 .FeatureCards {
     height: 100vh;
+}
+
+.CTAButton {
+    width: 180px;
+    height: 50px;
+    background-color: #8d99ae;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-top: 50px;
+    transition: background-color 2s ease-out;
+    color: #0e131f;
+    /* margin-right: 20px; */
+}
+
+.CTAButton :hover {
+    background-color: #333a48;
+}
+
+.CTAInput {
+    outline: 0;
+    border-width: 0 0 2px;
+    background-color: transparent;
+    border-color: blue;
+    margin-top: 70px;
+    color: #abb4c4;
+    font-size: 1.4em;
+}
+
+.IntroductionText {
+    margin-top: 50px;
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #abb4c4;
+}
+
+.CTAButtons {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 40px;
+}
+
+.Banner {
+    background-color: #44CFCB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.BannerTitle {
+    
+}
+
+.BannerText{
+
 }
