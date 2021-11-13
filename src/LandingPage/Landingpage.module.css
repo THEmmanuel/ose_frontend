@@ -1,10 +1,30 @@
-.LandingPage{
+.LandingPage {
     background-color: darkblue;
     color: #fff;
 }
 
-.IntroductionContainer {
+.Introduction {
+    padding: 50px;
     height: 100vh;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+
+.IntroductionContainer {
+    margin: auto;
+}
+
+.IntroductionTitle {
+    text-align: left;
+    font-size: 3em;
+    width: 500px;
+    font-weight: 600;
+}
+
+.LandingBg {
+    width: 40%;
+    height: 480px;
 }
 
 .Investors {
@@ -12,7 +32,7 @@
 }
 
 .Settlers {
-    height: 50vh;  
+    height: 50vh;
 }
 
 .Banner {
@@ -20,5 +40,5 @@
 }
 
 .FeatureCards {
-    
+    height: 100vh;
 }

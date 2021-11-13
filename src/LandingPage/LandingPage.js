@@ -1,18 +1,26 @@
 import React from 'react'
 import style from './Landingpage.module.css'
+import landingBG from '../Assets/conifer-1138.png'
 
 const LandingPage = () => {
     return (
-        <div className = {style.LandingPage}>
-            <section className = {style.IntroductionContainer}>
-                <span>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse cupiditate accusantium rem quidem non. Molestiae unde itaque architecto quos id dolores ut aliquid, ipsum, nemo natus suscipit aut eligendi quaerat.
+        <div className={style.LandingPage}>
+            <section className={style.Introduction}>
+            <div className = {style.IntroductionContainer}>
+
+            </div>
+                <span className={style.IntroductionTitle}>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 </span>
 
-                <img src="" alt="" />
+                <img
+                    src={landingBG}
+                    alt=""
+                    className={style.LandingBg}
+                />
             </section>
 
-            <section className = {style.Investors}>
+            <section className={style.Investors}>
                 <div>
                     <span>
                         75 seed investors
@@ -20,7 +28,7 @@ const LandingPage = () => {
                 </div>
             </section>
 
-            <section className = {style.Settlers}>
+            <section className={style.Settlers}>
                 <img src="" alt="" />
                 <div>
                     <span>Title</span>
@@ -32,12 +40,12 @@ const LandingPage = () => {
                 </div>
             </section>
 
-            <section className = {style.Banner}>
+            <section className={style.Banner}>
                 <span>DeFi together.</span>
                 <span>Deposit capital, vote on investments, and earn rewards.</span>
             </section>
 
-            <section className = {style.FeatureCards}>
+            <section className={style.FeatureCards}>
                 <div>
                     <span>
                         Community owned and
