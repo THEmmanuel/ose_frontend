@@ -1,0 +1,24 @@
+.LandingPage{
+    background-color: darkblue;
+    color: #fff;
+}
+
+.IntroductionContainer {
+    height: 100vh;
+}
+
+.Investors {
+    height: 25vh;
+}
+
+.Settlers {
+    height: 50vh;  
+}
+
+.Banner {
+    height: 20vh;
+}
+
+.FeatureCards {
+    
+}
