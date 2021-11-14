@@ -161,7 +161,6 @@
 .FeatureImage {
     width: 360px;
     height: 360px;
-    filter: grayscale(100%);
 }
 
 .Team {
@@ -179,6 +178,7 @@
 }
 
 .TeamImage {
+    filter: grayscale(100%);
     width: 200px;
     height: 200px;
     border-radius: 50%;

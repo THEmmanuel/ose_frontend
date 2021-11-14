@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import LandingPage from '../src/LandingPage/LandingPage';
+import LandingPage from './LandingPage/LandingPage';
+import CreateVault from './CreateVault/CreateVault';
 
 function App() {
   return (
     <div className="App">
-      <LandingPage/>
+      {/* <LandingPage/> */}
+      <CreateVault/>
     </div>
   );
 }
