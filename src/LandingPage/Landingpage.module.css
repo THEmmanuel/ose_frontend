@@ -72,14 +72,6 @@
     font-weight: 600;
 }
 
-.Banner {
-    height: 20vh;
-}
-
-.FeatureCards {
-    height: 100vh;
-}
-
 .CTAButton {
     width: 180px;
     height: 50px;
@@ -122,16 +114,128 @@
 }
 
 .Banner {
+    height: 25vh;
     background-color: #44CFCB;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    grid-gap: 20px;
+    color: #0E131F;
 }
 
 .BannerTitle {
-    
+    font-size: 3em;
+    font-weight: 600;
 }
 
-.BannerText{
+.BannerText {
+    font-size: 2.2em;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
 
+.FeatureCards {
+    background-color: #0e131f;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 40px;
+}
+
+.FeatureText {
+    font-size: 2em;
+    width: 50%;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.FeatureCard {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    height: 70vh;
+    width: 50%;
+    background-color: #2A2B50;
+}
+
+.FeatureImage {
+    width: 360px;
+    height: 360px;
+    filter: grayscale(100%);
+}
+
+.Team {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    background-color: #0e131f;
+}
+
+.TeamTitle {
+    font-weight: 500;
+    font-size: 2.5em;
+    margin-bottom: 150px;
+    margin-top: 80px;
+}
+
+.TeamImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+.TeamMemberContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    grid-gap: 140px;
+}
+
+.TeamMember {
+    display: flex;
+    flex-direction: column;
+}
+
+.TeamMemberName {
+    font-size: 1.8em;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.Join{
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    grid-gap: 60px;
+    padding: 50px;
+    justify-content: center;
+}
+
+.JoinTextContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 70px;
+}
+
+.JoinInputContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.JoinTitle {
+    font-size: 2.5em;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+
+.JoinText {
+    font-weight: 500;
+    font-size: 2em;}
+
+.Footer{
+    height: 35vh;
+    background-color: #0e131f;
 }

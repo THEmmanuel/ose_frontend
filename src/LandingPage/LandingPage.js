@@ -1,11 +1,13 @@
 import React from 'react'
 import style from './Landingpage.module.css'
 import landingBG from '../Assets/conifer-1138.png';
-import SettlerBG from '../Assets/conifer-1138.png';
+import SettlerBG from '../Assets/jaconda-60.png';
 
 const LandingPage = () => {
     return (
         <div className={style.LandingPage}>
+            {/* Introduction */}
+
             <section className={style.Introduction}>
                 <div className={style.IntroductionTextContainer}>
                     <span className={style.IntroductionTitle}>
@@ -40,6 +42,7 @@ const LandingPage = () => {
                 />
             </section>
 
+            {/* Investors */}
             <section className={style.Investors}>
                 <div>
                     <span>
@@ -60,6 +63,7 @@ const LandingPage = () => {
                 </div>
             </section>
 
+            {/* Settlers */}
             <section className={style.Settlers}>
                 <div className={style.SettlersContainer}>
                     <img src={SettlerBG} alt="" className={style.SettlerBG} />
@@ -74,49 +78,96 @@ const LandingPage = () => {
                 </div>
             </section>
 
+            {/* Banner */}
+
             <section className={style.Banner}>
                 <span className={style.BannerTitle}>DeFi together.</span>
                 <span className={style.BannerText}>Deposit capital, vote on investments, and earn rewards.</span>
             </section>
 
+            {/* Cards */}
+
             <section className={style.FeatureCards}>
-                <div>
-                    <span>
+                <div className={style.FeatureCard}>
+                    <span className={style.FeatureText}>
                         Community owned and
                         community managed.
                         Trustless and transparent.
                     </span>
 
-                    <img src="" alt="" />
+                    <img src={SettlerBG} alt="" className={style.FeatureImage} />
+                </div>
+
+                <div className={style.FeatureCard}>
+                    <span className={style.FeatureText}>
+                        Community owned and
+                        community managed.
+                        Trustless and transparent.
+                    </span>
+
+                    <img src={SettlerBG} alt="" className={style.FeatureImage} />
+                </div>
+
+                <div className={style.FeatureCard}>
+                    <span className={style.FeatureText}>
+                        Community owned and
+                        community managed.
+                        Trustless and transparent.
+                    </span>
+
+                    <img src={SettlerBG} alt="" className={style.FeatureImage} />
                 </div>
             </section>
 
+            {/* Team */}
+            <section className={style.Team}>
+                <span className={style.TeamTitle}>
+                    Meet the founding team
+                </span>
 
-            <section>
-                Meet the founding team
+                <div className={style.TeamMemberContainer}>
+                    <div className={style.TeamMember}>
+                        <img src="https://thispersondoesnotexist.com/image" alt="" className={style.TeamImage} />
+                        <span className={style.TeamMemberName}>James Chadwick</span>
+                        <div>
+                            <span>link</span>
+                            <span>link</span>
+                            <span>link</span>
+                            <span>link</span>
+                        </div>
+                    </div>
 
-                <div>
-                    <img src="" alt="" />
-                    <span>Name name</span>
-                    <div>
-                        link
+                    <div className={style.TeamMember}>
+                        <img src="https://thispersondoesnotexist.com/image" alt="" className={style.TeamImage} />
+                        <span className={style.TeamMemberName}>James Chadwick</span>
+                        <div>
+                            <span>link</span>
+                            <span>link</span>
+                            <span>link</span>
+                            <span>link</span>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <section>
-                <span>
-                    How to join
-                </span>
-                <span>
-                    Sign up for the Settlers Beta waitlist
-                </span>
+            <section className={style.Join}>
+                <div className={style.JoinTextContainer}>
+                    <span className={style.JoinTitle}>
+                        How to join
+                    </span>
+                    <span className={style.JoinText}>
+                        Sign up for the Settlers Beta waitlist
+                    </span>
+                </div>
 
-                <input type="text" name="" id="" />
-                <button>Sign up</button>
+                <div className={style.JoinInputContainer}>
+                    <input type="text" name="" id="" className={style.CTAInput} />
+                    <button className={style.CTAButton}>Sign up</button>
+                </div>
             </section>
 
-            <footer>
+            {/* footer */}
+            <footer className = {style.Footer}>
                 footer shii
             </footer>
         </div>

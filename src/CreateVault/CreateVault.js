@@ -2,6 +2,11 @@ import React from 'react'
 import {ethers} from 'ethers';
 
 const CreateVault = props => {
+
+    const createVault = () => {
+        
+    }
+
     return (
         <div>
             <input type="text" />
